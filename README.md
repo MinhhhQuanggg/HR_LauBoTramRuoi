@@ -29,7 +29,7 @@
 * **Styling**: `Tailwind CSS` (Mobile-First, utility classes, đồng bộ design token).
 * **Icons**: `lucide-react` (icon tối giản, hiện đại, tree-shakeable).
 * **Validation**: `zod` (Xác thực dữ liệu form và request payload ở cả Client & Server).
-* **Tích hợp bên ngoài**: Telegram Bot API, Google Sheets API.
+* **Tích hợp bên ngoài**: Slack Incoming Webhook (Realtime alert cho HR), Google Sheets API (Lưu trữ / Storage ứng viên), Telegram Bot API.
 
 ---
 

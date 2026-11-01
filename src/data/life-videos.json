@@ -1,0 +1,38 @@
+[
+  {
+    "id": "VID-01",
+    "title": "Chính thức ra mắt lẩu bò 2 ngăn nóng hổi tại Lẩu Bò Trăm Rưởi",
+    "author": "@tiemlaubotramruoi",
+    "platform": "TikTok",
+    "thumbnail": "/images/tiktok/tiktok-1.jpg",
+    "tag": "Món mới • Lẩu 2 ngăn",
+    "url": "https://www.tiktok.com/@tiemlaubotramruoi/video/7639325827200503060",
+    "displayOrder": 1,
+    "isActive": true,
+    "createdAt": "2026-10-31T00:00:00.000Z"
+  },
+  {
+    "id": "VID-02",
+    "title": "Chi nhánh 828 Sư Vạn Hạnh sẵn sàng bùng nổ ngày khai trương",
+    "author": "@tiemlaubotramruoi",
+    "platform": "TikTok",
+    "thumbnail": "/images/tiktok/tiktok-2.jpg",
+    "tag": "Khai trương chi nhánh",
+    "url": "https://www.tiktok.com/@tiemlaubotramruoi/video/7699785501078752513",
+    "displayOrder": 2,
+    "isActive": true,
+    "createdAt": "2026-10-31T00:00:00.000Z"
+  },
+  {
+    "id": "VID-03",
+    "title": "Đêm tiệc náo nhiệt: Vừa ăn lẩu bò vừa xem múa cổ trang tại Ung Văn Khiêm",
+    "author": "@tiemlaubotramruoi",
+    "platform": "TikTok",
+    "thumbnail": "/images/tiktok/tiktok-3.jpg",
+    "tag": "Sự kiện & Không khí",
+    "url": "https://www.tiktok.com/@tiemlaubotramruoi/video/7688300127995432213",
+    "displayOrder": 3,
+    "isActive": true,
+    "createdAt": "2026-10-31T00:00:00.000Z"
+  }
+]

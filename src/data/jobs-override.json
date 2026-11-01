@@ -1,0 +1,101 @@
+{
+  "HV-BEP-01": {
+    "id": "HV-BEP-01",
+    "slug": "hoc-viec-bep",
+    "title": "Học việc bếp",
+    "category": "Học nghề có lương",
+    "badges": [
+      "18–30 tuổi",
+      "Chưa có tay nghề"
+    ],
+    "salaryDisplay": "7,5 - 10 triệu/tháng",
+    "minSalary": 7500000,
+    "maxSalary": 10000000,
+    "salaryUnit": "MONTH",
+    "locations": [
+      "Gò Vấp",
+      "Thủ Đức",
+      "Quận 10",
+      "Quận 3",
+      "Phú Nhuận"
+    ],
+    "ageRequirement": "18 – 30 tuổi",
+    "workType": "FULL_TIME",
+    "workTypeDisplay": "Toàn thời gian (Ca 14h00 – 24h00)",
+    "workHours": "14h00 – 24h00 mỗi ngày",
+    "experienceDisplay": "Không yêu cầu (Đào tạo từ số 0)",
+    "experienceRequirements": "no requirements",
+    "isUrgent": true,
+    "isActive": true,
+    "datePosted": "2026-10-28",
+    "validThrough": "2027-10-28T23:59:59+07:00",
+    "contactZalo": "0981256712",
+    "images": [
+      "/images/jobs/all_img_1.jpg",
+      "/images/jobs/all_img_2.jpg",
+      "/images/jobs/all_img_3.jpg",
+      "/images/jobs/all_img_4.jpg"
+    ],
+    "videoUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+    "videoPoster": "/images/jobs/all_img_1.jpg",
+    "concisePost": {
+      "headline": "🔥 HỌC VIỆC KHÔNG LO MẤT PHÍ – LẠI CÒN ĐƯỢC NHẬN LƯƠNG ĐỦ! 🔥",
+      "intro": "Bạn muốn học nghề bếp bài bản nhưng ngại đóng học phí? Đừng lo, Tiệm Lẩu Bò Trăm Rưỡi chỉ dạy thực chiến từ A-Z, không cần kinh nghiệm, vừa học vừa có thu nhập cực ổn áp mỗi tháng!",
+      "points": [
+        {
+          "icon": "🔹",
+          "label": "Khởi đầu nhẹ nhàng:",
+          "content": "Làm quen gian bếp, phụ trách sơ chế rau, nấm và chuẩn bị quầy nguyên liệu tươi ngon."
+        },
+        {
+          "icon": "🔹",
+          "label": "Chưa từng có kinh nghiệm?",
+          "content": "Đừng lo, bạn sẽ được hướng dẫn."
+        },
+        {
+          "icon": "🌙",
+          "label": "Ca làm việc cố định:",
+          "content": "14h00 – 24h00 mỗi ngày"
+        },
+        {
+          "icon": "👤",
+          "label": "Độ tuổi:",
+          "content": "18 – 30 tuổi"
+        },
+        {
+          "icon": "✨",
+          "label": "Khởi điểm:",
+          "content": "7,5 củ – 1x củ / tháng"
+        },
+        {
+          "icon": "✨",
+          "label": "Đánh giá tăng lương sau 1 tuần đầu nhiệt tình, cố gắng",
+          "content": ""
+        }
+      ],
+      "zalo": "09812.56712"
+    },
+    "responsibilities": [
+      "Bếp cắt bò tươi: Cắt, xếp bò ra đĩa đúng định lượng. (Được hướng dẫn cách phân biệt các loại thịt bò tươi ngon)",
+      "Bếp cắt bò lạnh: Nhận hàng, kiểm đếm, sử dụng máy cắt bò và xếp ra đĩa đúng tiêu chuẩn định lượng của chuỗi",
+      "Bếp bốc topping: Nhận hàng, kiểm tồn quầy kệ, sơ chế rau nấm tươi và chuẩn bị topping đầy đủ",
+      "Bếp pha – múc lẩu: Pha chế nước dùng lẩu bò Triều Châu gia truyền, múc lẩu và chuẩn bị gia vị",
+      "Đảm bảo vệ sinh an toàn thực phẩm khu vực bếp và dụng cụ nấu nướng luôn sạch sẽ, gọn gàng"
+    ],
+    "requirements": [
+      "Độ tuổi: 18 – 30 tuổi (Nam/Nữ)",
+      "Chưa từng có kinh nghiệm? Đừng lo, Tiệm chỉ dạy thực chiến từ A-Z từ ngày đầu",
+      "Nhanh nhẹn, trung thực, có tinh thần trách nhiệm và yêu thích ngành F&B",
+      "Sức khỏe tốt, chịu khó, ham học hỏi và mong muốn gắn bó lâu dài",
+      "Có thể làm việc theo ca cố định 14h00 – 24h00 mỗi ngày"
+    ],
+    "benefits": [
+      "HỌC VIỆC KHÔNG LO MẤT PHÍ – LẠI CÒN ĐƯỢC NHẬN LƯƠNG ĐỦ!",
+      "Thu nhập khởi điểm: 7,5 củ – 10 củ / tháng",
+      "Đánh giá tăng lương ngay sau 1 tuần đầu nếu làm việc nhiệt tình, cố gắng",
+      "Được đào tạo tay nghề nấu lẩu, xử lý thịt bò chuẩn vị Triều Châu độc quyền",
+      "Bao ăn theo ca làm việc, hỗ trợ gửi xe miễn phí",
+      "Cơ hội thăng tiến lên Bếp chính, Tổ trưởng bếp sau 3 - 6 tháng"
+    ]
+  }
+}

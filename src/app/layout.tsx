@@ -1,8 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { siteConfig } from "@/config/site";
-import Header from "@/components/layout/Header";
-import Footer from "@/components/layout/Footer";
-import FloatingActionButton from "@/components/common/FloatingActionButton";
+import AppLayout from "@/components/layout/AppLayout";
 import "./globals.css";
 
 export const viewport: Viewport = {
@@ -17,6 +15,11 @@ export const metadata: Metadata = {
   title: {
     default: `${siteConfig.heroHeading} | ${siteConfig.name}`,
     template: `%s | ${siteConfig.name}`,
+  },
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
   },
   description: siteConfig.description,
   keywords: [
@@ -63,10 +66,7 @@ export default function RootLayout({
   return (
     <html lang="vi">
       <body className="flex flex-col min-h-screen bg-surface">
-        <Header />
-        <main className="flex-1">{children}</main>
-        <Footer />
-        <FloatingActionButton />
+        <AppLayout>{children}</AppLayout>
       </body>
     </html>
   );

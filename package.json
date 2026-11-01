@@ -6,10 +6,16 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "db:generate-sql": "npx tsx scripts/generate-supabase-sql.ts",
+    "db:seed": "npx tsx scripts/seed-supabase.ts",
+    "test:integrations": "npx tsx scripts/test-integrations.ts"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.118.0",
+    "@types/leaflet": "^1.9.22",
     "clsx": "^2.1.1",
+    "leaflet": "^1.9.4",
     "lucide-react": "^0.460.0",
     "next": "^14.2.24",
     "react": "^18.3.1",

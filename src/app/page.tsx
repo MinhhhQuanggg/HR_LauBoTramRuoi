@@ -4,8 +4,11 @@ import JobGridSection from "@/components/home/JobGridSection";
 import LifeAtTramRuoi from "@/components/home/LifeAtTramRuoi";
 import FloatingBannerApply from "@/components/home/FloatingBannerApply";
 
-export default function HomePage() {
+import { getLifeVideosList } from "@/lib/life-videos-store";
+
+export default async function HomePage() {
   const orgSchema = generateOrganizationSchema();
+  const lifeVideos = await getLifeVideosList(true);
 
   return (
     <>
@@ -21,7 +24,7 @@ export default function HomePage() {
       <JobGridSection />
 
       {/* Kênh truyền thông & Đời sống Trăm Rưỡi */}
-      <LifeAtTramRuoi />
+      <LifeAtTramRuoi initialVideos={lifeVideos} />
 
       {/* Khối hộp trắng nổi tích hợp Form Ứng Tuyển Nhanh trước đường cong Footer */}
       <FloatingBannerApply />

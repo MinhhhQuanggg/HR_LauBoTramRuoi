@@ -5,6 +5,7 @@ export type RegionType =
 
 export interface Branch {
   id: string;
+  cnNumber: number;
   name: string;
   address: string;
   district: string;
@@ -12,6 +13,9 @@ export interface Branch {
   phone?: string;
   region: RegionType;
   mapUrl?: string;
+  lat?: number;
+  lng?: number;
+  isActive?: boolean;
 }
 
 export interface BranchGroup {

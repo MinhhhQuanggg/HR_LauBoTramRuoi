@@ -1,12 +1,14 @@
 interface CurvedWaveDividerProps {
   fillColor?: string;
   className?: string;
+  heightClassName?: string;
   flip?: boolean;
 }
 
 export default function CurvedWaveDivider({
   fillColor = "#F8F9FA",
   className = "",
+  heightClassName = "h-12 md:h-20 lg:h-24",
   flip = false,
 }: CurvedWaveDividerProps) {
   return (
@@ -20,7 +22,7 @@ export default function CurvedWaveDivider({
         viewBox="0 0 1440 120"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="w-full h-12 md:h-20 lg:h-24 block"
+        className={`w-full block ${heightClassName}`}
         preserveAspectRatio="none"
       >
         <path

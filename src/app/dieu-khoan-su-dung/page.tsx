@@ -22,7 +22,7 @@ import {
 export const metadata: Metadata = {
   title: "Điều Khoản Sử Dụng Cổng Tuyển Dụng | Lẩu Bò Trăm Rưỡi",
   description:
-    "Quy định và điều khoản sử dụng cổng thông tin tuyển dụng Lẩu Bò Trăm Rưỡi - Lẩu Bò Triều Châu (Quang Nguyen Group). Cam kết tuyển dụng miễn phí 100%.",
+    "Quy định và điều khoản sử dụng cổng thông tin tuyển dụng Lẩu Bò Trăm Rưỡi - Lẩu Bò Triều Châu. Cam kết tuyển dụng miễn phí 100%.",
 };
 
 export default function TermsOfUsePage() {
@@ -48,7 +48,7 @@ export default function TermsOfUsePage() {
             ĐIỀU KHOẢN SỬ DỤNG CỔNG TUYỂN DỤNG
           </h1>
           <p className="text-sm sm:text-base text-amber-100/85 max-w-3xl leading-relaxed">
-            Quy định chung dành cho người tìm việc, ứng viên khi truy cập và ứng tuyển tại Hệ thống Chuỗi F&B Lẩu Bò Trăm Rưỡi - Lẩu Bò Triều Châu ({siteConfig.companyName}).
+            Quy định chung dành cho người tìm việc, ứng viên khi truy cập và ứng tuyển tại Hệ thống Chuỗi F&B Lẩu Bò Trăm Rưỡi - Lẩu Bò Triều Châu.
           </p>
           <div className="mt-4 flex flex-wrap items-center gap-4 text-xs text-amber-200/70">
             <span>Phiên bản: 2.0 (Áp dụng từ năm 2026)</span>
@@ -313,13 +313,7 @@ export default function TermsOfUsePage() {
                     <tr className="bg-gray-50/70">
                       <td className="px-4 py-3 font-semibold text-gray-900 w-1/3">Đơn vị chủ quản</td>
                       <td className="px-4 py-3 text-gray-700 font-medium">
-                        Hệ thống Lẩu Bò Trăm Rưỡi - Lẩu Bò Triều Châu ({siteConfig.companyName})
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className="px-4 py-3 font-semibold text-gray-900">Văn phòng tiếp nhận</td>
-                      <td className="px-4 py-3 text-gray-700">
-                        701 Phan Văn Trị, Phường 7, Quận Gò Vấp, TP. Hồ Chí Minh
+                        Hệ thống Tiệm Lẩu Bò Trăm Rưỡi - Lẩu Bò Triều Châu
                       </td>
                     </tr>
                     <tr className="bg-gray-50/70">

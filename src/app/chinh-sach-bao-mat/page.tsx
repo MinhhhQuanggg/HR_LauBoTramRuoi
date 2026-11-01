@@ -23,7 +23,7 @@ import {
 export const metadata: Metadata = {
   title: "Chính Sách Bảo Mật Thông Tin Ứng Viên | Tuyển Dụng Lẩu Bò Trăm Rưỡi",
   description:
-    "Chính sách bảo mật thông tin hồ sơ ứng viên tại Hệ thống Lẩu Bò Trăm Rưỡi - Lẩu Bò Triều Châu (Quang Nguyen Group) theo Luật Bảo vệ dữ liệu cá nhân 2025.",
+    "Chính sách bảo mật thông tin hồ sơ ứng viên tại Hệ thống Lẩu Bò Trăm Rưỡi - Lẩu Bò Triều Châu theo Luật Bảo vệ dữ liệu cá nhân 2025.",
 };
 
 export default function PrivacyPolicyPage() {
@@ -49,7 +49,7 @@ export default function PrivacyPolicyPage() {
             CHÍNH SÁCH BẢO MẬT THÔNG TIN ỨNG VIÊN
           </h1>
           <p className="text-sm sm:text-base text-amber-100/85 max-w-3xl leading-relaxed">
-            Cam kết bảo vệ dữ liệu cá nhân và quyền riêng tư của người tìm việc, ứng viên ứng tuyển tại Hệ thống Chuỗi F&B Lẩu Bò Trăm Rưỡi - Lẩu Bò Triều Châu ({siteConfig.companyName}).
+            Cam kết bảo vệ dữ liệu cá nhân và quyền riêng tư của người tìm việc, ứng viên ứng tuyển tại Hệ thống Chuỗi F&B Lẩu Bò Trăm Rưỡi - Lẩu Bò Triều Châu.
           </p>
           <div className="mt-4 flex flex-wrap items-center gap-4 text-xs text-amber-200/70">
             <span>Phiên bản: 2.0 (Áp dụng từ năm 2026)</span>
@@ -118,13 +118,7 @@ export default function PrivacyPolicyPage() {
                     <tr className="bg-gray-50/70">
                       <td className="px-4 py-3 font-semibold text-gray-900 w-1/3">Tên tổ chức</td>
                       <td className="px-4 py-3 text-gray-700 font-medium">
-                        Hệ thống Chuỗi F&B Lẩu Bò Trăm Rưỡi - Lẩu Bò Triều Châu ({siteConfig.companyName})
-                      </td>
-                    </tr>
-                    <tr>
-                      <td className="px-4 py-3 font-semibold text-gray-900">Văn phòng điều hành</td>
-                      <td className="px-4 py-3 text-gray-700">
-                        701 Phan Văn Trị, Phường 7, Quận Gò Vấp, TP. Hồ Chí Minh
+                        Hệ thống Tiệm Lẩu Bò Trăm Rưỡi - Lẩu Bò Triều Châu
                       </td>
                     </tr>
                     <tr className="bg-gray-50/70">
@@ -156,14 +150,7 @@ export default function PrivacyPolicyPage() {
                         </Link>
                       </td>
                     </tr>
-                    <tr>
-                      <td className="px-4 py-3 font-semibold text-gray-900">Bộ phận Bảo vệ Dữ liệu (DPO)</td>
-                      <td className="px-4 py-3 text-gray-700">
-                        <a href="mailto:privacy@laubotramruoi.vn" className="text-brand-700 underline">
-                          privacy@laubotramruoi.vn
-                        </a>
-                      </td>
-                    </tr>
+
                   </tbody>
                 </table>
               </div>
@@ -533,8 +520,8 @@ export default function PrivacyPolicyPage() {
               <p className="text-justify">
                 Nếu bạn có bất kỳ câu hỏi, yêu cầu thực hiện quyền bảo mật hoặc cần khiếu nại về dữ liệu cá nhân, xin vui lòng liên hệ:
               </p>
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <div className="p-4 rounded-2xl bg-gray-50 border border-gray-200 space-y-2">
+              <div className="max-w-md">
+                <div className="p-5 rounded-2xl bg-gray-50 border border-gray-200 space-y-2">
                   <div className="flex items-center gap-2 font-bold text-gray-900">
                     <Phone className="w-4 h-4 text-emerald-600" />
                     <span>Bộ phận Tuyển dụng (HR)</span>
@@ -547,22 +534,6 @@ export default function PrivacyPolicyPage() {
                   </p>
                   <p className="text-sm text-gray-600">
                     Email: tuyendung@laubotramruoi.vn
-                  </p>
-                </div>
-
-                <div className="p-4 rounded-2xl bg-gray-50 border border-gray-200 space-y-2">
-                  <div className="flex items-center gap-2 font-bold text-gray-900">
-                    <Mail className="w-4 h-4 text-brand-700" />
-                    <span>Bộ phận Bảo vệ Dữ liệu (DPO)</span>
-                  </div>
-                  <p className="text-sm text-gray-600">
-                    Email: privacy@laubotramruoi.vn
-                  </p>
-                  <p className="text-sm text-gray-600">
-                    Trụ sở: 701 Phan Văn Trị, Phường 7, Quận Gò Vấp, TP.HCM
-                  </p>
-                  <p className="text-sm text-gray-600">
-                    Thời gian phản hồi: 3 - 5 ngày làm việc
                   </p>
                 </div>
               </div>

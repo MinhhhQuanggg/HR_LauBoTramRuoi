@@ -2,8 +2,8 @@ export const siteConfig = {
   name: "Tuyển Dụng Lẩu Bò Trăm Rưỡi",
   shortName: "Lẩu Bò Trăm Rưỡi",
   subBrand: "Lẩu Bò Triều Châu",
-  companyName: "Quang Nguyen Group",
-  hiringOrgName: "Lẩu Bò Trăm Rưỡi - Quang Nguyen Group",
+  companyName: "Lẩu Bò Trăm Rưỡi",
+  hiringOrgName: "Hệ Thống Tiệm Lẩu Bò Trăm Rưỡi",
   url: "https://tuyendung.laubotramruoi.vn",
   domainRedirect: "https://tuyendung.laubotramruoi.com.vn",
   description:

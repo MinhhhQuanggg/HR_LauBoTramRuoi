@@ -281,6 +281,42 @@ export interface Database {
         };
         Relationships: [];
       };
+      admin_users: {
+        Row: {
+          id: string;
+          email: string;
+          password_hash: string;
+          full_name: string | null;
+          role: string;
+          is_active: boolean;
+          last_login_at: string | null;
+          created_at: string;
+          updated_at: string;
+        };
+        Insert: {
+          id?: string;
+          email: string;
+          password_hash: string;
+          full_name?: string | null;
+          role?: string;
+          is_active?: boolean;
+          last_login_at?: string | null;
+          created_at?: string;
+          updated_at?: string;
+        };
+        Update: {
+          id?: string;
+          email?: string;
+          password_hash?: string;
+          full_name?: string | null;
+          role?: string;
+          is_active?: boolean;
+          last_login_at?: string | null;
+          created_at?: string;
+          updated_at?: string;
+        };
+        Relationships: [];
+      };
     };
 
     Views: {

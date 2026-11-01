@@ -8,14 +8,19 @@ import { Lock, Mail, ArrowRight, ShieldCheck, AlertCircle, Eye, EyeOff } from "l
 
 export default function AdminLoginPage() {
   const router = useRouter();
-  const [email, setEmail] = useState("tuyendung.admin@gmail.com");
-  const [password, setPassword] = useState("laubotramruoi123#");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [showPassword, setShowPassword] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (!email.trim() || !password) {
+      setErrorMessage("Vui lòng nhập đầy đủ tài khoản và mật khẩu!");
+      return;
+    }
+
     setIsLoading(true);
     setErrorMessage("");
 
@@ -23,7 +28,7 @@ export default function AdminLoginPage() {
       const res = await fetch("/api/admin/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ email, password }),
+        body: JSON.stringify({ email: email.trim(), password }),
       });
 
       const data = await res.json();
@@ -39,12 +44,6 @@ export default function AdminLoginPage() {
     } finally {
       setIsLoading(false);
     }
-  };
-
-  const fillDefaultCredentials = () => {
-    setEmail("tuyendung.admin@gmail.com");
-    setPassword("laubotramruoi123#");
-    setErrorMessage("");
   };
 
   return (
@@ -89,10 +88,10 @@ export default function AdminLoginPage() {
           )}
 
           {/* Form */}
-          <form onSubmit={handleSubmit} className="space-y-5">
+          <form onSubmit={handleSubmit} className="space-y-5" autoComplete="off">
             <div>
               <label className="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-2">
-                Email Quản Trị
+                Tài Khoản / Email Quản Trị
               </label>
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-gray-400">
@@ -103,7 +102,8 @@ export default function AdminLoginPage() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
-                  placeholder="tuyendung.admin@gmail.com"
+                  autoFocus
+                  placeholder="Nhập email quản trị viên..."
                   className="w-full pl-11 pr-4 py-3 rounded-xl border border-gray-300 text-gray-900 text-sm font-medium focus:ring-2 focus:ring-brand-700 focus:border-brand-700 outline-none transition bg-gray-50/50 hover:bg-white"
                 />
               </div>
@@ -122,7 +122,7 @@ export default function AdminLoginPage() {
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   required
-                  placeholder="••••••••••••"
+                  placeholder="Nhập mật khẩu..."
                   className="w-full pl-11 pr-11 py-3 rounded-xl border border-gray-300 text-gray-900 text-sm font-medium focus:ring-2 focus:ring-brand-700 focus:border-brand-700 outline-none transition bg-gray-50/50 hover:bg-white"
                 />
                 <button
@@ -135,23 +135,11 @@ export default function AdminLoginPage() {
               </div>
             </div>
 
-            {/* Quick Fill Button */}
-            <div className="flex items-center justify-between text-xs pt-1">
-              <button
-                type="button"
-                onClick={fillDefaultCredentials}
-                className="text-amber-700 font-bold hover:underline"
-              >
-                Nhập sẵn tài khoản mặc định
-              </button>
-              <span className="text-gray-400">Bảo mật cấp nội bộ</span>
-            </div>
-
             {/* Submit Button */}
             <button
               type="submit"
               disabled={isLoading}
-              className="w-full py-3.5 px-6 rounded-xl bg-gradient-to-r from-[#8B1E1E] to-[#A92424] hover:from-[#751919] hover:to-[#8E1E1E] text-white font-bold text-base shadow-lg shadow-red-950/20 active:scale-[0.99] transition duration-200 flex items-center justify-center gap-2 disabled:opacity-70 disabled:cursor-not-allowed"
+              className="w-full py-3.5 px-6 rounded-xl bg-gradient-to-r from-[#8B1E1E] to-[#A92424] hover:from-[#751919] hover:to-[#8E1E1E] text-white font-bold text-base shadow-lg shadow-red-950/20 active:scale-[0.99] transition duration-200 flex items-center justify-center gap-2 disabled:opacity-70 disabled:cursor-not-allowed mt-2"
             >
               {isLoading ? (
                 <div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" />

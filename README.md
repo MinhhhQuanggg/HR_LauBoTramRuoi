@@ -1,5 +1,5 @@
 # Website Tuyển Dụng - Lẩu Bò Trăm Rưỡi (Lẩu Bò Triều Châu)
-> Dự án cổng thông tin và tuyển dụng chính thức của chuỗi F&B Lẩu Bò Trăm Rưỡi – Quang Nguyen Group.
+> Dự án cổng thông tin và tuyển dụng chính thức của chuỗi F&B Lẩu Bò Trăm Rưỡi – Lẩu Bò Triều Châu.
 
 ---
 

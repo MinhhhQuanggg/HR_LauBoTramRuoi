@@ -3,13 +3,12 @@ import Link from "next/link";
 import { siteConfig } from "@/config/site";
 import CurvedWaveDivider from "@/components/common/CurvedWaveDivider";
 import Image from "next/image";
-import JobDetailMedia from "@/components/job-detail/JobDetailMedia";
-import { ChevronRight, Flame, MapPin, Phone, ShieldCheck, HeartHandshake, Award } from "lucide-react";
+import { ChevronRight, MapPin, Phone, ShieldCheck, HeartHandshake, Award } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Về Chúng Tôi | Lẩu Bò Trăm Rưỡi – Quang Nguyen Group",
+  title: "Về Chúng Tôi | Lẩu Bò Trăm Rưỡi",
   description:
-    "Tìm hiểu về chuỗi F&B Lẩu Bò Trăm Rưỡi - Lẩu Bò Triều Châu thuộc Quang Nguyen Group. Văn hóa đào tạo nghề bếp có lương và cam kết phát triển nhân sự.",
+    "Tìm hiểu về chuỗi F&B Lẩu Bò Trăm Rưỡi - Lẩu Bò Triều Châu. Văn hóa đào tạo nghề bếp có lương và cam kết phát triển nhân sự.",
 };
 
 export default function AboutPage() {
@@ -29,9 +28,6 @@ export default function AboutPage() {
           <h1 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold tracking-tight">
             Về Lẩu Bò Trăm Rưỡi
           </h1>
-          <p className="mt-2 text-amber-200/90 text-sm sm:text-base max-w-2xl">
-            Thương hiệu Lẩu Bò Triều Châu trực thuộc Quang Nguyen Group – Tận tâm trong từng hương vị, tiên phong đào tạo nghề F&B miễn phí có lương.
-          </p>
         </div>
       </section>
 
@@ -45,10 +41,6 @@ export default function AboutPage() {
             <div className="bg-white rounded-3xl p-6 sm:p-10 shadow-sm border border-gray-100 space-y-8">
               {/* Giới thiệu */}
               <div>
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-50 text-brand-900 text-xs font-bold mb-3 border border-red-100">
-                  <Flame className="w-3.5 h-3.5 fill-brand-900" />
-                  <span>Quang Nguyen Group</span>
-                </div>
                 <h2 className="text-2xl sm:text-3xl font-black text-gray-900 leading-tight">
                   Hệ Thống Tiệm Lẩu Bò Trăm Rưỡi – Lẩu Bò Triều Châu
                 </h2>
@@ -149,19 +141,18 @@ export default function AboutPage() {
             </div>
           </div>
 
-          {/* CỘT PHẢI (30% - Logo thương hiệu & Media không khung trắng) */}
-          <div className="lg:col-span-4 space-y-6">
-            <div className="w-full">
+          {/* CỘT PHẢI (30% - Chỉ để lại Logo thương hiệu) */}
+          <div className="lg:col-span-4">
+            <div className="w-full sticky top-24">
               <Image
                 src="/logo.png"
                 alt="Tiệm Lẩu Bò Trăm Rưỡi"
                 width={409}
                 height={400}
                 priority
-                className="w-full h-auto rounded-2xl object-contain shadow-sm"
+                className="w-full h-auto rounded-3xl object-contain shadow-sm border border-gray-100 bg-white"
               />
             </div>
-            <JobDetailMedia />
           </div>
         </div>
       </div>
